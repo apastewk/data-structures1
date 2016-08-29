@@ -1,0 +1,68 @@
+Part 1
+
+Runtime
+
+1. The number of animal crackers will determine the workload becasue the larger 
+the number of elephants, the longer it will take to figure out if there is an 
+elephant in the box of crackers.  
+
+2. O(1) - most efficient
+   O(log n)
+   O(n)
+   O(n log n)
+   O(n^2)
+   O(2^n) - least efficient
+
+
+Stacks and Queues
+
+1.1. Stack
+
+1.2. Queue
+
+1.3. Stack
+
+2. A queue would be an appropriate data structure when you are waiting in line 
+for the DMV.  The first person in line should be the first person to be helped. 
+Another situation where you would want a queue is in the hackbright help queue. 
+The first person to ask for help should be the first person the get helped.
+
+3. A stack would be an appropriate data structure when you are eating a stack of 
+pancakes.  It does not make sense to move all of the pancakes and eat the bottom
+one first, it makes more sense to eat the pancake that was last put on, the one 
+at the top.  Another situation where you would use a stack would be the undo
+button in a program.  When you click the undo button, you want to revert back to
+the last thing that you changed.
+
+
+Linked Lists
+
+1. The nodes would be Apple, Berry and Cherry.  Each of these nodes would have 
+both a data attribute and a next attribute.  The Apple node has "Apple" data and 
+has a next attribute that is pointing to the Berry node, the Berry node has 
+"Berry" data and has a next attribute point to the Cherry node and the Cherry 
+node has "Cherry" data and a next attribute that is pointing to None. The head
+is the Apple node.  It is the first node in the linked list.  The tail would be 
+pointing to the Cherry node because Cherry has a next attribute of None, therefore,
+it is the last item in the linked list.  
+
+2. A singly-linked list only points one direction.  It is only aware of which node
+is next, where a doubly-linked list points in two directions.  It is aware of which
+node is next and which node came beforehand.  
+
+3. It is faster to append to a linked list if we keep track of the tail because 
+if we are keeping track of which node is the last one in the linked list we can 
+automatically go to the tail node and append other than going through each node
+to find the one that has a next value of None.  
+
+
+Trees
+
+1.  food, Italian, Indian, Mexican, lasagna, pizza, tikka masala, saag, burrito
+
+2. food, Mexican, enchiladas, tacos, burrito, Indian, saag, tikka masala, Italian, pizza, Sicilian, New York-style, Chicago-style 
+
+3. A binary tree is different from other trees because each parent can have at
+most two children and has some kind of rule that it follows to traverse the tree.
+The tree does not have hierarchial meaningfulness like other trees, it is made
+for efficient searching.  
